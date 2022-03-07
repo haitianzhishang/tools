@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+always @(posedge clk or negedge rst) 
+begin
+  if (rst) 
+  begin
+		
+	end
+	else
+  begin
+		
+	end
+end
+
+]]></content>
+<tabTrigger>always_sequential</tabTrigger>
+<description>Sequential logic</description>
+<scope>source.systemverilog, keyword.control.systemverilog, source.verilog, keyword.control.verilog</scope>
+</snippet>

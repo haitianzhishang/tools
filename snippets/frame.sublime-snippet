@@ -1,0 +1,46 @@
+<snippet>
+
+<content><![CDATA[
+//--------------------------------------------------------------------
+// Design Name : ${TM_FILENAME/(.*)[.](.*)/$1/g}
+// File Name   : $TM_FILENAME
+// Function    :  
+// Designer    : Chen Xiaowei         - Nanyang technological University 
+// 																	 - Technische Universität München
+// Email       : chen1408@e.ntu.edu.sg
+// Blog				 : haitianzhishang.github.io
+//---------------------------------------------------------------------
+module ${TM_FILENAME/(.*)[.](.*)/$1/g} #(
+	paramater  
+)
+(
+	input 						clk,    
+	input 						rst_n, 
+	input		[  :  ]		,
+	output 	[  :  ]		,
+	
+);
+
+always@(posedge clk or negedge rst) 
+begin
+  if(!rst) 
+  begin
+		
+	end
+	else
+  begin
+		
+	end
+end
+
+always@(*) 
+begin
+
+end
+
+endmodule : ${TM_FILENAME/(.*)[.](.*)/$1/g}
+]]></content>
+<tabTrigger>frame</tabTrigger>
+<description>Basic verilog file frame</description>
+<scope>source.systemverilog, comment.line.double-slash.systemverilog, punctuation.definition.comment.systemverilog, source.verilog, comment.line.double-slash.verilog, punctuation.definition.comment.verilog</scope>
+</snippet>
